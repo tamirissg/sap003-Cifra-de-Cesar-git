@@ -1,0 +1,123 @@
+h1{
+    left: 30px;
+    color:#18BABC;
+    font-family:verdana;
+    font-size: 25em
+    text-transform:uppercase;
+    text-align:center;
+    margin:10px;
+    border:   
+    
+}
+
+.titulo{
+    float: left;
+    width: 100%;}
+
+
+ .subtitulo{
+     font-family: verdana;
+     color: #ED5375;
+ }
+
+html{
+    background-color:#0E163B;
+    
+}
+
+
+body{
+    
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 0px 0px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: 
+   
+    
+    
+    
+}
+
+td{
+    width: 20000px;
+}
+
+#root{
+    color: white;
+    /* background-color:#0E163B; */
+    width: 600px;
+    left: 600px;
+    border-radius: 34px;
+
+}
+
+
+
+.letra{
+    color:black;
+    width: 400px;
+    height:300px;
+    border-radius: 30px;
+}
+
+.numero{
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+
+
+.letras{
+    color:black;
+    width: 400px;
+    height:300px;
+    border-radius: 30px;
+}
+
+.numeros{
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+
+#btn-traduzir{
+    color:white;
+    font-family: verdana;
+    border-radius: 5px;
+    background-color: #DB526F;
+    border: 0mm,
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.explicacao{
+    color:white;
+    font-family: verdana;
+    text-align: justify;
+    font-size: 12px;   
+}
+
+footer{
+
+    background-color: white;
+    width: 610px;
+    height:25px;
+    text-align: center;
+    color:#ED5375
+
+}
+
+input{
+    display: inline-block;
+    
+}
+
+.p{
+    text-transform: uppercase;
+}
+
