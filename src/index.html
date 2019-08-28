@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+    </style>
 </head>
 
 <body>
   <header>
 
-        <h1>(DE).CO.DI.FI.CA</h1>
-        <p class="subtitulo"><strong>[Traduzindo suas Mensagens]</strong></p>
+        <h1 class ="titulo">[DE] . CO . DI . FI . CA</h1>
+       
       </header>
 
 
@@ -25,8 +28,10 @@
         
 
         <input class= "letra" type="text" placeholder ="Digite a sua mensagem"  id="string"/><br>
-        Chave Encode <input class = "numero" type="text" placeholder =""  id="offset"/>
-        <input class = "traduzindo" type="submit" id="btn-traduzir" value="Traduzir" onclick="encode()"/>
+        Chave Encode <strong>+</strong> <input class = "numero" type="text" placeholder =""  id="offset"/>
+        <button class ="traduzindo"id="myBtn"><strong>Codifica</strong></button>
+        <button class ="traduzindo"id="myBtn3"><strong>Voltar</strong></button>
+        
       
       </form>
  
@@ -40,13 +45,13 @@
 
         <p>Digite a mensagem para Decodificar</p>
 
-        <input  class= "letras" type="text" placeholder="Digite a sua mensagem" id="string2" /><br>
-        Chave Decode <input class = "numeros" type="text" placeholder =""  id =" offset2"/>
-        <input type="submit" id="btn-traduzir" value="Traduzir" onclick="decode(event)" />
-
+        <input  class= "letras" type="text" placeholder="Digite a sua mensagem" id="string2"/><br>
+        Chave Decode <strong> - </strong><input class = "numeros" type="text" placeholder =""  id="offset2"/>
+        <button class ="traduzindo"id="myBtn2"><strong>Decodifica</strong></button>
+        <button class ="traduzindo"id="myBtn4"><strong>Voltar</strong></button>
       </form>
   
-          <p id=resultado2> </p>
+          <p id="resultado2"> </p>
         </div>
 
     </div>
@@ -62,7 +67,7 @@
   
     <article> 
         <h2><strong>Cifra de césar</strong></h2>
-        <p class = "paragrafo">Cifrar significa codificar. 
+        <p class = "paragrafo"><strong>Cifrar significa codificar. 
           A cifra de César é um dos primeiros tipos de criptografias 
           conhecidas na história. O imperador romano Júlio César utilizava
            essa cifra para enviar ordens secretas aos seus generais no campo 
@@ -70,8 +75,8 @@
           <p>A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. 
           É um tipo de cifra por substituição, em que cada letra do texto original 
           é substituida por outra que se encontra há um número fixo de posições (deslocamento) 
-          mais a frente do mesmo alfabeto.</p><br>
-          <p>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p>
+          mais a frente do mesmo alfabeto.</strong></p><br>
+          <p><strong>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p>
           <p>
             <ul>
               <li>
@@ -85,7 +90,7 @@
           </p>
           <p>Atualmente todas as cifras de substituição alfabética simples, são decifradas com 
             facilidade e não oferecem muita egurança na comunição, mas a cifra de César muitas 
-            vezes pode fazer parte de um sistema mais complexo de criptografia.</p>
+            vezes pode fazer parte de um sistema mais complexo de criptografia.</strong></p>
 
           
     </article>
@@ -93,7 +98,7 @@
 </main>
 </table>
 <footer>
-    <p> <strong>Cifra de César - Primeiro Projeto </strong></p>
+    <p>Cifra de César - Primeiro Projeto</p>
   </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
