@@ -7,101 +7,102 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
-    </style>
+
+  </style>
 </head>
 
 <body>
   <header>
 
-        <h1 class ="titulo">[DE] . CO . DI . FI . CA</h1>
-       
-      </header>
+    <h1 class="titulo">[DE] . CO . DI . FI . CA</h1>
+
+  </header>
 
 
-  <main> 
-  <div id="root">  
-    
-    <div class = "esquerda">
-      <form class="fomulario1">
+  <main>
+    <div id="root">
 
-        <p>Digite a mensagem para Codificar</p>
-        
+      <div class="esquerda">
+        <form class="fomulario1">
 
-        <input class= "letra" type="text" placeholder ="Digite a sua mensagem"  id="string"/><br>
-        Chave Encode <strong>+</strong> <input class = "numero" type="text" placeholder =""  id="offset"/>
-        <button class ="traduzindo"id="myBtn"><strong>Codifica</strong></button>
-        <button class ="traduzindo"id="myBtn3"><strong>Voltar</strong></button>
-        
-      
-      </form>
- 
-      <p id="resultado1"> </p>  
-    </div>     
+          <p>Digite a mensagem para Codificar</p>
 
-  
-     
-<div class="direita">
-      <form class = "formulario2">
 
-        <p>Digite a mensagem para Decodificar</p>
+          <input class="letra" type="text" placeholder="Digite a sua mensagem" id="string" /><br>
+          Chave Encode <strong>+</strong> <input class="numero" type="text" placeholder="" id="offset" />
+          <button class="traduzindo" id="myBtn"><strong>Codifica</strong></button>
+          <button class="traduzindo" id="myBtn3"><strong>Voltar</strong></button>
 
-        <input  class= "letras" type="text" placeholder="Digite a sua mensagem" id="string2"/><br>
-        Chave Decode <strong> - </strong><input class = "numeros" type="text" placeholder =""  id="offset2"/>
-        <button class ="traduzindo"id="myBtn2"><strong>Decodifica</strong></button>
-        <button class ="traduzindo"id="myBtn4"><strong>Voltar</strong></button>
-      </form>
-  
-          <p id="resultado2"> </p>
-        </div>
+
+        </form>
+
+        <p id="resultado1"> </p>
+      </div>
+
+
+
+      <div class="direita">
+        <form class="formulario2">
+
+          <p>Digite a mensagem para Decodificar</p>
+
+          <input class="letras" type="text" placeholder="Digite a sua mensagem" id="string2" /><br>
+          Chave Decode <strong> - </strong><input class="numeros" type="text" placeholder="" id="offset2" />
+          <button class="traduzindo" id="myBtn2"><strong>Decodifica</strong></button>
+          <button class="traduzindo" id="myBtn4"><strong>Voltar</strong></button>
+        </form>
+
+        <p id="resultado2"> </p>
+      </div>
 
     </div>
-        
-  </main>   
 
-    
-</div>
-<br>
-<table>
+  </main>
 
-<main class="explicacao">
-  
-    <article> 
+
+  </div>
+  <br>
+  <table>
+
+    <main class="explicacao">
+
+      <article>
         <h2><strong>Cifra de césar</strong></h2>
-        <p class = "paragrafo"><strong>Cifrar significa codificar. 
-          A cifra de César é um dos primeiros tipos de criptografias 
-          conhecidas na história. O imperador romano Júlio César utilizava
-           essa cifra para enviar ordens secretas aos seus generais no campo 
-          de batalha.</p><br>
-          <p>A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. 
-          É um tipo de cifra por substituição, em que cada letra do texto original 
-          é substituida por outra que se encontra há um número fixo de posições (deslocamento) 
+        <p class="paragrafo"><strong>Cifrar significa codificar.
+            A cifra de César é um dos primeiros tipos de criptografias
+            conhecidas na história. O imperador romano Júlio César utilizava
+            essa cifra para enviar ordens secretas aos seus generais no campo
+            de batalha.</p><br>
+        <p>A cifra de César é uma das técnicas mais simples de cifrar uma mensagem.
+          É um tipo de cifra por substituição, em que cada letra do texto original
+          é substituida por outra que se encontra há um número fixo de posições (deslocamento)
           mais a frente do mesmo alfabeto.</strong></p><br>
-          <p><strong>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p>
-          <p>
-            <ul>
-              <li>
-                Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-                </li>
-                <li>Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</li>
-                <li>A letra A será D</li>
-                <li>A palavra CASA será FDVD</li>
-            </ul>
-      
-          </p>
-          <p>Atualmente todas as cifras de substituição alfabética simples, são decifradas com 
-            facilidade e não oferecem muita egurança na comunição, mas a cifra de César muitas 
-            vezes pode fazer parte de um sistema mais complexo de criptografia.</strong></p>
+        <p><strong>Por exemplo se usarmos o deslocamento (offset) de 3 posições:</p>
+        <p>
+          <ul>
+            <li>
+              Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+            </li>
+            <li>Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</li>
+            <li>A letra A será D</li>
+            <li>A palavra CASA será FDVD</li>
+          </ul>
 
-          
-    </article>
-  
-</main>
-</table>
-<footer>
+        </p>
+        <p>Atualmente todas as cifras de substituição alfabética simples, são decifradas com
+          facilidade e não oferecem muita egurança na comunição, mas a cifra de César muitas
+          vezes pode fazer parte de um sistema mais complexo de criptografia.</strong></p>
+
+
+      </article>
+
+    </main>
+  </table>
+  <footer>
     <p>Cifra de César - Primeiro Projeto</p>
   </footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 
 </body>
 
