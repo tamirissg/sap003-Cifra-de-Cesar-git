@@ -29,13 +29,13 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Como funciona ?
 
-1 - Codificar 
+1 - Para Codificar 
     *Digite no campo (Digite sua mensagem)a palavra ou frase que deseja codificar;
     *Digite no campo (Chave Encode +) quantas vezes deseja mover as lestras;
     *Click no botão "Codificar"
     *Para voltar click no botão "Voltar".
 
-2 - Decodificar 
+2 - Para Decodificar 
     *Digite no campo (Digite sua mensagem)a palavra ou frase que deseja decodificar;
     *Digite no campo (Chave Decode -) quantas vezes deseja mover as lestras ou copie e cole a palavra codificada para decodificar;
     *Click no botão "Decodificar"
